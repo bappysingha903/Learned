@@ -1,0 +1,609 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*    banner*/
+
+
+    .left_tree {
+        left: 2%;
+    }
+
+    /*    dept.*/
+    .dept_pic h2 {
+        left: 7%;
+    }
+
+    /*    cunter*/
+    .couter_widgets {
+        margin-right: 30px;
+        width: 117px;
+    }
+
+    /*    footer*/
+    .edumodo_icon a i {
+        width: 26px;
+    }
+
+}
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*    nav*/
+    .nav_btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /*banner*/
+
+
+    .left_tree {
+        display: none;
+    }
+
+    .right_tree {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 30px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        padding-right: 45px;
+    }
+
+    .banner_text {
+        margin-top: -56%;
+    }
+
+    .banner_btn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    /*    dept*/
+    .dept_text h2 {
+        font-size: 31px;
+    }
+
+    .dept_text p {
+        font-size: 16px;
+        padding: 0 53px;
+    }
+
+    .dept_pic h2 {
+        left: 11%;
+        font-size: 20px;
+    }
+
+    /*    Limitless*/
+    .limit_side_img {
+        display: none;
+    }
+
+    .limit_header h2 {
+        font-size: 31px;
+    }
+
+    .limit_header p {
+        font-size: 16px;
+    }
+
+    .couter_widgets h2 {
+        font-size: 31px;
+    }
+
+    .couter_widgets p {
+        font-size: 14px;
+    }
+
+    .couter_widgets {
+        margin-right: 18px;
+        width: 88px;
+    }
+
+    /*    univarsity*/
+    .univarsity_header h2 {
+        font-size: 31px;
+        padding-bottom: 60px;
+    }
+
+    .univarsity_text h2 {
+        font-size: 14px;
+    }
+
+    .univarsity_widgs {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #4F5F80;
+    }
+
+    /*    footer*/
+    .edumodo_img img {
+        width: 90%;
+    }
+
+    .edumodo_pera p {
+        padding-right: 0px;
+        margin-bottom: 78px;
+    }
+
+    .edumodo_icon a i {
+        font-size: 16px;
+        width: 16px;
+    }
+
+    .footer_header h2 {
+        padding-bottom: 20px;
+    }
+
+    .pt {
+        padding-top: 17px;
+    }
+
+    .featured_text a h3 {
+        display: block;
+    }
+
+    .featured_text p {
+        display: block;
+    }
+
+    .support_pera p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .email_sub button {
+        font-size: 12px;
+        padding: 10px 3px;
+    }
+
+
+}
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*    nav*/
+    .nav_btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+
+
+    /*banner*/
+
+
+    .left_tree {
+        display: none;
+    }
+
+    .right_tree {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 31px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        padding-right: 45px;
+    }
+
+    .banner_text {
+        margin-top: -56%;
+    }
+
+    .banner_btn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    /*    dept*/
+    #department {
+        padding-top: 80px;
+    }
+
+    .dept_pic {
+        margin-bottom: 30px;
+    }
+
+    .dept_text h2 {
+        font-size: 31px;
+    }
+
+    .dept_text p {
+        font-size: 16px;
+        padding: 0 11px;
+    }
+
+    .dept_pic h2 {
+        left: 33%;
+        font-size: 20px;
+    }
+
+    /*    Limitless*/
+    .varsity_img {
+        margin-bottom: 60px;
+    }
+
+    .limit_side_img {
+        display: none;
+    }
+
+    .limit_header h2 {
+        font-size: 31px;
+    }
+
+    .limit_header p {
+        font-size: 16px;
+    }
+
+    .couter_widgets h2 {
+        font-size: 31px;
+    }
+
+    .couter_widgets p {
+        font-size: 14px;
+    }
+
+    .couter_widgets {
+        margin-right: 18px;
+        width: 88px;
+    }
+
+    /*    univarsity*/
+    #univarsity {
+        padding-top: 80px;
+    }
+
+    .univarsity_header h2 {
+        font-size: 31px;
+        padding-bottom: 60px;
+    }
+
+    .univarsity_text h2 {
+        font-size: 14px;
+    }
+
+    .univarsity_widgs {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #4F5F80;
+    }
+
+    /*    footer*/
+    .edumodo_img img {
+        width: 30%;
+    }
+
+    .edumodo_pera p {
+        padding-right: 239px;
+        margin-bottom: 20px;
+    }
+
+    .edumodo_pera p::after {
+        width: 60%;
+    }
+
+    .edumodo_icon a i {
+        font-size: 18px;
+        width: 30px;
+    }
+
+    .edumodo_part {
+        padding-bottom: 50px;
+    }
+
+    .footer_header h2 {
+        padding-bottom: 20px;
+    }
+
+    .pt {
+        padding-top: 0px;
+    }
+
+    .featured_text a h3 {
+        display: inline-block;
+    }
+
+    .featured_text p {
+        display: inline-block;
+        padding-right: 158px;
+    }
+
+    .featured_text {
+        padding-bottom: 50px;
+    }
+
+    .learning_part {
+        padding-bottom: 50px;
+    }
+
+    .support_pera p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-right: 200px;
+    }
+
+    .email_sub input {
+        width: 60%;
+    }
+
+    .email_sub button {
+        right: 40%;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .copy_text h2 {
+        font-size: 11px;
+    }
+
+    .copy_part_text li a {
+        font-size: 11px;
+        margin-right: 10px;
+    }
+
+    .back_to_top {
+        right: 3%;
+        bottom: 5%;
+        height: 40px;
+        width: 40px;
+        background-color: #FC8A00;
+        border-radius: 6px;
+        text-align: center;
+        clip-path: polygon(0 30%, 50% 0, 100% 30%, 100% 100%, 49% 70%, 0 100%);
+    }
+
+    .back_to_top i {
+        font-size: 24px;
+        line-height: 32px;
+        display: block;
+        padding-left: 0px;
+    }
+
+    .back_to_top h2 {
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*    nav*/
+    .nav_btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand img {
+        width: 60%;
+    }
+
+
+
+    /*banner*/
+
+
+    .left_tree {
+        display: none;
+    }
+
+    .right_tree {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 31px;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        padding-right: 73px;
+        padding-bottom: 30px;
+        padding-top: 9px;
+    }
+
+    .banner_text {
+        margin-top: -30%;
+    }
+
+    .banner_btn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    /*    dept*/
+    #department {
+        padding-top: 80px;
+    }
+
+    .dept_pic {
+        margin-bottom: 30px;
+    }
+
+    .dept_text h2 {
+        font-size: 31px;
+    }
+
+    .dept_text p {
+        font-size: 16px;
+        padding: 0 0px;
+        padding-bottom: 30px;
+    }
+
+    .dept_pic h2 {
+        left: 21%;
+        font-size: 20px;
+    }
+
+    /*    Limitless*/
+    .varsity_img {
+        margin-bottom: 60px;
+    }
+
+    .limit_side_img {
+        display: none;
+    }
+
+    .limit_header h2 {
+        font-size: 31px;
+    }
+
+    .limit_header p {
+        font-size: 16px;
+    }
+
+    .couter_widgets h2 {
+        font-size: 31px;
+    }
+
+    .couter_widgets p {
+        font-size: 16px;
+    }
+
+    .couter_widgets {
+        margin-right: -4px;
+        width: 97px;
+    }
+
+    /*    univarsity*/
+    #univarsity {
+        padding-top: 80px;
+    }
+
+    .univarsity_header h2 {
+        font-size: 31px;
+        padding-bottom: 60px;
+    }
+
+    .univarsity_text h2 {
+        font-size: 14px;
+    }
+
+    .univarsity_widgs {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #4F5F80;
+    }
+
+    /*    footer*/
+    .edumodo_img img {
+        width: 30%;
+    }
+
+    .edumodo_pera p {
+        padding-right: 80px;
+        margin-bottom: 20px;
+    }
+
+    .edumodo_pera p::after {
+        width: 75%;
+    }
+
+    .edumodo_icon a i {
+        font-size: 18px;
+        width: 25px;
+    }
+
+    .edumodo_part {
+        padding-bottom: 50px;
+    }
+
+    .footer_header h2 {
+        padding-bottom: 20px;
+    }
+
+    .pt {
+        padding-top: 0px;
+    }
+
+    .featured_text a h3 {
+        display: inline-block;
+    }
+
+    .featured_text p {
+        display: inline-block;
+        padding-right: 34px;
+    }
+
+    .featured_text {
+        padding-bottom: 50px;
+    }
+
+    .learning_part {
+        padding-bottom: 50px;
+    }
+
+    .support_pera p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-right: 41px;
+    }
+
+    .email_sub input {
+        width: 100%;
+    }
+
+    .email_sub button {
+        right: 0%;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .copy_text h2 {
+        font-size: 11px;
+    }
+
+    .copy_part_text.text-right {
+        display: none;
+    }
+
+    .back_to_top {
+        right: 3%;
+        bottom: 5%;
+        height: 30px;
+        width: 30px;
+        background-color: #FC8A00;
+        border-radius: 4px;
+        text-align: center;
+        clip-path: polygon(32% 100%, 33% 52%, 1% 49%, 50% 0, 100% 50%, 69% 53%, 69% 100%);
+    }
+
+    .back_to_top i {
+        font-size: 27px;
+        line-height: 19px;
+        display: block;
+        padding-left: 0px;
+    }
+
+    .back_to_top h2 {
+        display: none;
+    }
+}
